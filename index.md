@@ -10,5 +10,7 @@
  } else {
  root.xUtils = factory(root.jQuery);
  }
- }(this, function ($) {}))
+ }(this, function ($) {
+   ...
+   }))
 ```
