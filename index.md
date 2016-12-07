@@ -33,3 +33,15 @@ function formatUrl(string) {
 }
 ```
 
+##rxjs flatMap VS map
+```js
+['a','b','c'].flatMap((e) => {
+	return [e, e+'x', e+'y', e+'z'];
+})
+//['a','ax','ay','az','b','bx','by','bz','c','cx','cy','cz']
+
+['a','b','c'].map((e) => {
+	return [e, e+'x', e+'y', e+'z'];
+})
+//[Array[4], Array[4], Array[4]]
+```
