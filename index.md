@@ -45,3 +45,17 @@ function formatUrl(string) {
 })
 //[Array[4], Array[4], Array[4]]
 ```
+
+## http Content-Type 字段值列表 摘自阮一峰老师文章
+- text/plain
+- text/html
+- text/css
+- image/jpeg
+- image/png
+- image/svg+xml
+- audio/mp4
+- video/mp4
+- application/javascript
+- application/pdf
+- application/zip
+- application/atom+xml
