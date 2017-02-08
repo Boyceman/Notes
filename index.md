@@ -59,3 +59,5 @@ function formatUrl(string) {
 - application/pdf
 - application/zip
 - application/atom+xml
+
+## 弹性触底 `cubic-bezier(0.36, -0.64, 0.34, 1.76)`
