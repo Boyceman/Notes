@@ -61,3 +61,9 @@ function formatUrl(string) {
 - application/atom+xml
 
 ## 弹性触底 `cubic-bezier(0.36, -0.64, 0.34, 1.76)`
+
+## nodejs服务遇到html内的js文件全都变成了html
+
+报错信息` Uncaught SyntaxError: Unexpected token` 
+
+去检查路径吧，一定是路径搞错了
